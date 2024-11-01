@@ -1,0 +1,8 @@
+CREATE DATABASE ecovida;
+
+CREATE TABLE `ecovida`.`mensagens` (`ID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+				    `nome` VARCHAR(256) NOT NULL ,
+				    `email` VARCHAR(256) NOT NULL ,
+				    `motivo` VARCHAR(256) NOT NULL ,
+				    `mensagem` VARCHAR(1000) NOT NULL)
+ENGINE = InnoDB;
